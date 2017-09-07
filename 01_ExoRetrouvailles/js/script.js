@@ -68,6 +68,11 @@ function dialogue(){
     var image = document.getElementById('character_01').getElementsByTagName('img');
     image[0].src = tabImg.picture02
   }
+  else {
+    var tabImg = data.perso_1;
+    var image = document.getElementById('character_02').getElementsByTagName('img');
+    image[0].src = tabImg.pictures03
+  }
 
 
 }

@@ -1,0 +1,110 @@
+body{
+  background-image: url('../img/background.jpg');
+  background-size: 1520px;
+  animation-name: glisse;
+  animation-duration: 5s ;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes glisse {
+
+  0%{
+    background-position-x: 100vw;
+  }
+  100%{
+    background-position-x: 0vw;
+  }
+
+}
+.run{
+  background-image: url('../img/mario0.jpg');
+  height: 160px;
+  width: 150px;
+  background-size: cover;
+  animation-name: run;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes run{
+  0%{background-image: url('../img/mario0.jpg');
+  }
+  12.5%{background-image: url('../img/mario1.jpg');
+  }
+  25%{background-image: url('../img/mario2.jpg');
+  }
+  37.5%{background-image: url('../img/mario3.jpg');
+  }
+  50%{background-image: url('../img/mario4.jpg');
+  }
+  62.5%{background-image: url('../img/mario5.jpg');
+  }
+  75%{background-image: url('../img/mario6.jpg');
+  }
+  87.5%{background-image: url('../img/mario7.jpg');
+  }
+}
+
+.jump{
+  background-image: url('../img/saut1.jpg');
+  height: 160px;
+  width: 150px;
+  background-size: cover;
+  animation-name: jump;
+  animation-duration: 0.7s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes jump {
+  0%{background-image: url('../img/saut1.jpg');
+    bottom: 0;
+  }
+  8.3%{background-image: url('../img/saut2.jpg');
+
+  }
+  16.6%{background-image: url('../img/saut3.jpg');
+
+  }
+  24.9%{background-image: url('../img/saut4.jpg');
+  }
+  33.2%{background-image: url('../img/saut5.jpg');
+  bottom: 500px;
+  }
+  41.5%{background-image: url('../img/saut6.jpg');
+  }
+  49.8%{background-image: url('../img/saut7.jpg');
+  }
+  58.1%{background-image: url('../img/saut8.jpg');
+  }
+  66.4%{background-image: url('../img/saut9.jpg');
+  }
+  74.7%{background-image: url('../img/saut10.jpg');
+  }
+  83%{background-image: url('../img/saut11.jpg');
+  }
+  91.3{background-image: url('../img/saut12.jpg');
+  }
+  100%{
+    bottom: 0;
+  }
+
+}
+
+#yoshi {
+  bottom: 138px;
+  position: absolute;
+  animation-name: yoshgliss;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  /*padding-top: 640px;*/
+}
+@keyframes yoshgliss {
+  0%{ background-position-x: 100vw;
+  }
+  100%{
+    background-position-x: 0vw;
+  }
+
+}
